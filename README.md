@@ -8,8 +8,8 @@ Configurar del **config.cmd** las variables definidas en la seccion: "VARIABLES 
 
 - MSBUILD: path donde esta el compilador de visual studio (el entorno en que se probo fue con VS2013 community edition)
 - SITEPATH: directorio donde se encontrara la webapp publicada
-- SITENAME: nombre del sitio (http://localhost/<SITENAME>)
-- SITEPOOL: nombre del apppool del sitio 
+- SITENAME: nombre del sitio que se creará en el IIS
+- SITEPOOL: nombre del apppool del sitio que se creara en el IIS 
 - SITEPORT: Puerto en el que se accedera al sitio
 - APPCMDPATH: directorio donde se encuentra los comandos del iis (recomendado dejar el directorio por defecto)
 
