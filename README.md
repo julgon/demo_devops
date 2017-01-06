@@ -1,13 +1,13 @@
 # demo_devops
 
-Instrucciones de Uso
-(1) Configuracion
-(2) Preparación de entorno
-(3) Building
-(4) Deployment
+## Instrucciones de Uso
+###(1) Configuracion
+###(2) Preparación de entorno
+###(3) Building
+###(4) Deployment
 
 ###########
-(1) Configurar del config.cmd las variables definidas en la seccion: "VARIABLES A CONFIGURAR". Concretamente:
+## (1) Configurar del config.cmd las variables definidas en la seccion: "VARIABLES A CONFIGURAR". Concretamente:
 
 MSBUILD: path donde esta el compilador de visual studio (el entorno en que se probo fue con VS2013 community edition)
 SITEPATH: directorio donde se encontrara la webapp publicada
@@ -17,24 +17,27 @@ SITEPORT: Puerto en el que se accedera al sitio
 APPCMDPATH: directorio donde se encuentra los comandos del iis (recomendado dejar el directorio por defecto)
 
 ###########
-(2) Preparación del entorno (unica vez)
+## (2) Preparación del entorno (unica vez)
 Abrir un cmd con permisos de administrador, ubicarse en el directorio raiz donde se encuentra el bat setenvonce.bat y ejecutarlo
 
 NOTA: El framework 4.5.2 utilizado, se lo instala de manera online a traves de su webinstaller (que se adjunta en el procedimiento). Si no tiene salida a internet.
 Instalarlo de manera offline bajo sus propios medios y agregar a las lineas del setenvonce.bat:
-@echo  *** Instalando el .Net Framework 4.5.2 en modo online (IMPORTANTE: SI no tiene conexion a internet, vea "MANUAL.txt"
+
+@echo  *** Instalando el .Net Framework 4.5.2 en modo online (IMPORTANTE: SI no tiene conexion a internet, vea "MANUAL.txt")
 @NDP452-KB2901954-Web.exe /q /norestart /ChainingPackage ADMINDEPLOYMENT
+
 la palabra "REM" (sin comillas), quedando:
+
 REM @echo  *** Instalando el .Net Framework 4.5.2 en modo online (IMPORTANTE: SI no tiene conexion a internet, vea "MANUAL.txt"
 REM @NDP452-KB2901954-Web.exe /q /norestart /ChainingPackage ADMINDEPLOYMENT
 
 ###########
-(3) Compilacion:
+## (3) Compilacion:
 Abrir un cmd con permisos de administrador, ubicarse en el directorio raiz donde se encuentra el bat build.bat y ejecutarlo
 
 NOTA: Para realizar la compilación, es necesario tener instalado los compiladores propios del Visual Studio (MSBUILD) y configurar la variable correspondiente mencionada en el paso (1)
 
 
 ###########
-(4) Deployment de la aplicacion 
+## (4) Deployment de la aplicacion 
 Abrir un cmd con permisos de administrador, ubicarse en el directorio raiz donde se encuentra el bat deployapp.bat y ejecutarlo
