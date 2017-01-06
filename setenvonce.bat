@@ -2,7 +2,7 @@
 
 @call config.cmd
 
-@echo  *** Instalando el .Net Framework 4.5.2 en modo online (IMPORTANTE: SI no tiene conexion a internet, vea "MANUAL.txt"
+@echo  *** Instalando el .Net Framework 4.5.2 en modo online (IMPORTANTE: SI no tiene conexion a internet, vea "MANUAL.txt")
 @NDP452-KB2901954-Web.exe /q /norestart /ChainingPackage ADMINDEPLOYMENT
 
 @echo  *** Habilitando ASP.Net 4.5 para el IIS
