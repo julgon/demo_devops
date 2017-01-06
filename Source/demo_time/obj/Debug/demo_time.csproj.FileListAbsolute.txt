@@ -1,0 +1,10 @@
+C:\Users\Julian\Dropbox\Personal\Demo DevOps\Source\demo_time\bin\WebApplication1.dll.config
+C:\Users\Julian\Dropbox\Personal\Demo DevOps\Source\demo_time\bin\WebApplication1.dll
+C:\Users\Julian\Dropbox\Personal\Demo DevOps\Source\demo_time\bin\WebApplication1.pdb
+C:\Users\Julian\Dropbox\Personal\Demo DevOps\Source\demo_time\obj\Debug\demo_time.csprojResolveAssemblyReference.cache
+C:\Users\Julian\Dropbox\Personal\Demo DevOps\Source\demo_time\obj\Debug\WebApplication1.dll
+C:\Users\Julian\Dropbox\Personal\Demo DevOps\Source\demo_time\obj\Debug\WebApplication1.pdb
+C:\Users\Julian\Dropbox\Personal\Demo DevOps\Source\demo_time\obj\Debug\Package\PackageTmp\bin\WebApplication1.dll
+C:\Users\Julian\Dropbox\Personal\Demo DevOps\Source\demo_time\obj\Debug\Package\PackageTmp\bin\WebApplication1.pdb
+C:\Users\Julian\Dropbox\Personal\Demo DevOps\Source\demo_time\obj\Debug\Package\PackageTmp\Default.aspx
+C:\Users\Julian\Dropbox\Personal\Demo DevOps\Source\demo_time\obj\Debug\Package\PackageTmp\Web.config

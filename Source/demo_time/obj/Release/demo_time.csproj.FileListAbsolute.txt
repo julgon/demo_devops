@@ -1,0 +1,5 @@
+C:\Users\Julian\Dropbox\Personal\Demo DevOps\Source\demo_time\bin\WebApplication1.dll.config
+C:\Users\Julian\Dropbox\Personal\Demo DevOps\Source\demo_time\bin\WebApplication1.dll
+C:\Users\Julian\Dropbox\Personal\Demo DevOps\Source\demo_time\bin\WebApplication1.pdb
+C:\Users\Julian\Dropbox\Personal\Demo DevOps\Source\demo_time\obj\Release\WebApplication1.dll
+C:\Users\Julian\Dropbox\Personal\Demo DevOps\Source\demo_time\obj\Release\WebApplication1.pdb
